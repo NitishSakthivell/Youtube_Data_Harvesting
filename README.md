@@ -1,5 +1,5 @@
-# Youtube_Data_Harvesting
-Youtube_Data_Harvesting using postgresSQL,Streamlit,MongoDB
+# Youtube_Data_Harvesting_and_Warehousing
+Youtube_Data_Harvesting_and_Warehousing using postgresSQL,Streamlit,MongoDB
 LinkdIn: https://www.linkedin.com/in/nitish-sakthivell-47534717a/
  
 The goal of the YouTube Data Harvesting and Warehousing project is to give users access to and analysis of data from several YouTube channels. The project uses Streamlit, SQL, and MongoDB to create an intuitive application that lets users retrieve, save, and query movie and channel data on YouTube.
