@@ -523,7 +523,8 @@ mydb = psycopg2.connect(host="localhost",
             port = "5432"
             )
 cursor = mydb.cursor()
-    
+
+#Q&A    
 question = st.selectbox(
     'Please Select Your Question',
     ('1. All the videos and the Channel Name',
