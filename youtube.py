@@ -159,7 +159,7 @@ def channel_details(channel_id):
     
     return "upload completed successfully"
 
-#creating channels table in pgsql 
+#creating channels table 
 def channels_table():
         mydb = psycopg2.connect(host="localhost",
                 user="postgres",
@@ -278,7 +278,7 @@ def playlist_table():
 
 
 
-#creating video table pgsql
+#creating video table 
 def video_table():
       
         mydb = psycopg2.connect(host="localhost",
@@ -367,7 +367,7 @@ def video_table():
                 except:
                         print("videos values already inserted in the table")
 
-#creating comment table in pgsql
+#creating comment table 
 def comments_table():
     
     mydb = psycopg2.connect(host="localhost",
